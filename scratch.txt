@@ -1,0 +1,27 @@
+// Scratch pad for registering SSO App
+
+Be running Version 1708, build 8424.nnnn or later - Insiders Fast
+
+// Register at
+https://apps.dev.microsoft.com/
+
+AppID: 
+Password (Client Secret): 
+
+api://localhost:44355/{App ID GUID}
+
+// For Pre-Auth of Office
+Office APP ID: d3590ed6-52b3-4102-aeff-aad2292ab01c
+
+// Redirect URI
+https://localhost:44355
+
+// Admin Consent
+https://login.microsoftonline.com/common/adminconsent?client_id={application_ID}&state=12345
+
+// Tenant from address bar
+Tenant:
+
+
+// Configure Addin
+Issuer: https://login.microsoftonline.com/{tenant_ID}/v2.0
